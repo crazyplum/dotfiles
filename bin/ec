@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ $(uname -s) == 'GNU/Linux' ]; then
-    exec emacsclient --alternate-editor="" -f /home/joe/.emacs.d/server/server -c "$@"
+if [ $(uname -s) == 'Linux' ]; then
+    exec emacsclient --alternate-editor="" -f /home/joe/.emacs.d/server/server -c -t -nw "$@"
 elif [ $(uname -s) == 'Darwin' ]; then
-    exec emacsclient --alternate-editor="" -f ~/.emacs.d/server/server -c "$@"
+    exec emacsclient --alternate-editor="" -f ~/.emacs.d/server/server -c -t -nw "$@"
 fi
