@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ $(uname -s) == 'GNU/Linux' ]; then
-    exec emacsclient --alternate-editor="" -f /home/joe/.emacs.d/server/server /sudo::$(readlink -f "$@")
+    exec emacsclient --alternate-editor="" -f /home/joe/.emacs.d/server/server -n  /sudo::$(readlink -f "$@")
 elif [ $(uname -s) == 'Darwin' ]; then
-    exec emacsclient --alternate-editor="" /sudo::$(readlink -f "$@")
+    exec emacsclient --alternate-editor="" -n /sudo::$(readlink -f "$@")
 fi
 
