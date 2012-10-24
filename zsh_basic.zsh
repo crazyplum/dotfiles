@@ -7,4 +7,6 @@ alias d=popd
 
 export LESS="-FXRS"
 export EDITOR="e"
-export PATH="/home/joe/bin:$PATH"
+export PATH="/Users/joe/bin:/home/joe/bin:/usr/local/bin:$PATH"
+
+export LC_ALL=en_US.UTF-8
