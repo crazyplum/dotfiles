@@ -1,0 +1,17 @@
+caption always "%{=b BB}  %{=b WK}%-w%<%{=b RW}%n %t%{=b WK}%+w%-02=%{=b BB}  "
+hardstatus alwayslastline "%{=b BW} {%l}%018=%{=b WK} %H %-028=%{YK} %Y %M %d(%D) %{RW} %C %A "
+
+#hardstatus alwayslastline "%{= BB}  %{= WK}%-w%{= Rw}%n %t%{-}%+w %{= BW}%=| %0c:%s "
+
+bindkey ^[[D prev
+bindkey ^[[C next
+
+startup_message off 
+defscrollback 30000 
+
+vbell off
+vbell_msg " oooooooooooooooooops!! oooooooooooooooooops!! oooooooooooooooooops!! oooooooooooooooooops!! "
+
+termcapinfo xterm|xterms|xs|rxvt|xterm-new|xterm-color ti@:te@
+
+shelltitle '$|bash'

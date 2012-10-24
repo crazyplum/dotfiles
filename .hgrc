@@ -1,0 +1,15 @@
+[ui]
+username = Joseph Yen <joesph.yen@gmail.com>
+verbose = True
+
+[extensions]
+hgext.convert=
+hgext.graphlog=
+hgext.color=
+
+
+[auth]
+bitbucket.prefix = bitbucket.org/d2207197/my-unix-app-settings
+bitbucket.username = d2207197
+bitbucket.scheme = http
+
