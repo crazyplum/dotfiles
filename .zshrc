@@ -10,8 +10,7 @@ ZSH_THEME="powerline"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias o='ls --color'
-
+source ~/joe-dotfiles/zsh_basic.zsh
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
