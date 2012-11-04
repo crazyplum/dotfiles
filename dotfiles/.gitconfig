@@ -1,0 +1,18 @@
+[user]
+	name = 顏孜羲
+	email = joseph.yen@gmail.com
+[color]
+	ui = true
+[alias]
+	st = status
+	co = checkout
+	ls = ls-files
+	sb = show-branch
+	lg = log --stat --pretty=oneline --graph --decorate
+[merge]
+	tool = opendiff
+[github]
+	user = d2207197
+	token = 3105c6d42e9d073bcfef2cbe2919489a
+[core]
+	excludesfile = ~/.gitignore_global
