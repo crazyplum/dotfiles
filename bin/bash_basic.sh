@@ -1,4 +1,5 @@
-source 'zsh_basic.zsh'
+script_dir="$(dirname "$(readlink -f $0)")"
+source "$script_dir/zsh_basic.zsh"
 
 alias ..="cd .."
 alias ...="cd ../.."
