@@ -1,4 +1,5 @@
-alias o=ls
+alias ls='ls --color'
+alias o='ls --color'
 alias oa='ls -a'
 alias ol='ls -l'
 alias al='ls -al'
