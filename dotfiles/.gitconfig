@@ -8,7 +8,7 @@
 	co = checkout
 	ls = ls-files
 	sb = show-branch
-	lg = log --stat --pretty=oneline --graph --decorate
+	lg = log  --pretty=oneline --graph --decorate
 	ci = commit
   	st = status
   	br = branch

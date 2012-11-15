@@ -1,6 +1,7 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/joe-dotfiles/oh-my-zsh
 
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -40,3 +41,13 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 #export PATH=/home/joe/bin:/home/joe/.pythonbrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+if [[ "$TERM" == "dumb" ]]
+then
+  unsetopt zle
+  unsetopt prompt_cr
+  unsetopt prompt_subst
+  unfunction precmd
+  unfunction preexec
+  PS1='$ '
+fi
