@@ -35,7 +35,7 @@ POWERLINE_RIGHT_A="%M"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git debian django virtualenvwrapper pip python)
+plugins=(git debian django virtualenvwrapper pip python urltools autojump)
 
 source $ZSH/oh-my-zsh.sh
 
