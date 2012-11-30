@@ -1,5 +1,8 @@
+export DOTFILES_ROOT=$HOME/joe-dotfiles
+source "$DOTFILES_ROOT/dotfiles-conf.sh"
+
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/joe-dotfiles/oh-my-zsh
+ZSH=$DOTFILES_ROOT/submodule/oh-my-zsh
 
 
 # Set name of the theme to load.
@@ -11,7 +14,6 @@ ZSH_THEME="powerline"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/joe-dotfiles/bin/zsh_basic.sh
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -40,7 +42,10 @@ plugins=(git debian django virtualenvwrapper pip python)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-#export PATH=/home/joe/bin:/home/joe/.pythonbrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+source $DOTFILES_ROOT/bin/sh_basic.sh
+
+export EDITOR="ec"
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
 
 if [[ "$TERM" == "dumb" ]]
 then

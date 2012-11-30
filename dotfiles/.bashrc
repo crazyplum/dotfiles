@@ -1,3 +1,6 @@
+export DOTFILES_ROOT=$HOME/joe-dotfiles
+source "$DOTFILES_ROOT/dotfiles-conf.sh"
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -86,12 +89,7 @@ if [ -x /usr/bin/dircolors ]; then
     #alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
-alias o=ls
-alias ol='ls -l'
+source
 
 function ..() {
     num=$1
@@ -99,11 +97,10 @@ function ..() {
     seq=`seq $num`
     next=`printf '../%.0s' {$seq}`
     cd $next
-    ls  
+    ls
 }
 
-alias c=pushd
-alias d=popd
+source $DOTFILES_ROOT/bin/sh_basic.sh
 
 
 # enable programmable completion features (you don't need to enable
@@ -115,19 +112,5 @@ fi
 
 
 [ -e /usr/lib/go2/go2.sh ] && source /usr/lib/go2/go2.sh
-
-
-DEBEMAIL=joseph.yen@gmail.com
-DEBFULLNAME="Joseph Yen"
-export DEBEMAIL DEBFULLNAME
-
-export LC_ALL=en_US.UTF-8
-
-
-
-export LESS="-R"
-export LESS="-FXRS"
-export PIP_REQUIRE_VIRTUALENV=true
-export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 
 [[ -s "$HOME/.pythonbrew/etc/bashrc" ]] && source "$HOME/.pythonbrew/etc/bashrc"
