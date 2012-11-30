@@ -7,3 +7,9 @@
 [submodule "submodule/tmux-colors-solarized"]
 	path = submodule/tmux-colors-solarized
 	url = https://github.com/seebi/tmux-colors-solarized.git
+[submodule "submodule/solarized"]
+	path = submodule/solarized
+	url = https://github.com/altercation/solarized.git
+[submodule "submodule/dircolors-solarized"]
+	path = submodule/dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
