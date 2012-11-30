@@ -56,3 +56,5 @@ then
   unfunction preexec
   PS1='$ '
 fi
+
+eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`

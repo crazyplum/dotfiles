@@ -114,3 +114,5 @@ fi
 [ -e /usr/lib/go2/go2.sh ] && source /usr/lib/go2/go2.sh
 
 [[ -s "$HOME/.pythonbrew/etc/bashrc" ]] && source "$HOME/.pythonbrew/etc/bashrc"
+
+eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`

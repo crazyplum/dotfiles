@@ -14,9 +14,9 @@
   	dump = cat-file -p
 [merge]
 	tool = opendiff
-[github]
-	user = d2207197
-	token = 3105c6d42e9d073bcfef2cbe2919489a
+[include]
+	path = ~/.githubconfig
+
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = ec
