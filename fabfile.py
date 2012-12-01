@@ -153,7 +153,7 @@ def deploy(name = '', email = ''):
         shrc = "dotfiles/.bashrc", root = path.abspath(path.dirname(__file__))))
     local('mv {shrc}.new {shrc}'.format(shrc = "dotfiles/.bashrc"))
 
-    slink_srcs = map(functools.partial(os.path.join, 'dotfiles'), os.listdir('dotfiles')))
+    slink_srcs = map(functools.partial(os.path.join, 'dotfiles'), os.listdir('dotfiles'))
     slink_srcs += ['bin']
     slink_srcs = map(functools.partial(os.path.relpath, start=os.getenv('HOME')), slink_srcs)
     for slink_src in slink_srcs:
