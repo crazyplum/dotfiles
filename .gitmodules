@@ -1,6 +1,6 @@
 [submodule "submodule/tmux-powerline"]
 	path = submodule/tmux-powerline
-	url = git@github.com:d2207197/tmux-powerline.git
+	url = https://github.com/d2207197/tmux-powerline.git
 [submodule "submodule/oh-my-zsh"]
 	path = submodule/oh-my-zsh
 	url = https://github.com/d2207197/oh-my-zsh.git

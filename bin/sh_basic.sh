@@ -12,7 +12,8 @@ export LC_ALL=en_US.UTF-8
 DEBEMAIL=$EMAIL
 DEBFULLNAME=$FULLNAME
 export DEBEMAIL DEBFULLNAME
-
+export GIT_AUTHOR_NAME="$FULLNAME"
+export GIT_COMMITTER_NAME="$FULLNAME"
 
 if [ $(uname -s) = 'Darwin' ] && command -v brew >/dev/null ; then
    PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
