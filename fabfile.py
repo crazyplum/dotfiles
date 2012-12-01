@@ -2,9 +2,11 @@ from fabric.api import *
 from fabric.utils import *
 from fabric.colors import *
 import os
+from os import path
 import errno
 import shutil
 import functools
+import fileinput
 
 def generate_conf(name, email):
     """
@@ -144,7 +146,15 @@ def deploy(name = '', email = ''):
 
     generate_conf(name, email)
 
-    slink_srcs = map(functools.partial(os.path.join, 'dotfiles'), os.listdir('dotfiles'))
+    local("sed 's:^export DOTFILES_ROOT=.*$:export DOTFILES_ROOT={root}:'  <  {shrc} > {shrc}.new".format(
+        shrc = "dotfiles/.zshrc", root = path.abspath(path.dirname(__file__))))
+    local('mv {shrc}.new {shrc}'.format(shrc = "dotfiles/.zshrc"))
+    local("sed 's:^export DOTFILES_ROOT=.*$:export DOTFILES_ROOT={root}:'  <  {shrc} > {shrc}.new".format(
+        shrc = "dotfiles/.bashrc", root = path.abspath(path.dirname(__file__))))
+    local('mv {shrc}.new {shrc}'.format(shrc = "dotfiles/.bashrc"))
+
+    slink_srcs = map(functools.partial(os.path.relpath, start=os.getenv('HOME')),
+                     map(functools.partial(os.path.join, 'dotfiles'), os.listdir('dotfiles')))
     slink_srcs += ['bin']
     for slink_src in slink_srcs:
         slink_tgt = os.path.abspath(os.path.join(os.getenv('HOME'), os.path.basename(slink_src)))
