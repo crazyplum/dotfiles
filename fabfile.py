@@ -16,7 +16,7 @@ def generate_conf(name, email):
 '''
 export FULLNAME='{name}'
 export EMAIL='{email}'
-''' )
+'''.format(name = name, email = email) )
 
 
 
