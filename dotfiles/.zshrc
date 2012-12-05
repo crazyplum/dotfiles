@@ -46,6 +46,8 @@ source $DOTFILES_ROOT/bin/sh_basic.sh
 
 export EDITOR="ec"
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export PYTHONPATH='/usr/local/lib/python2.7/site-packages'
+export PROJECT_HOME="$HOME/projects"
 
 if [[ "$TERM" == "dumb" ]]
 then
@@ -58,3 +60,6 @@ then
 fi
 
 eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
