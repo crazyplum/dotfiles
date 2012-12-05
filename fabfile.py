@@ -8,6 +8,11 @@ import shutil
 import functools
 import fileinput
 
+import logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger( __name__ )
+
+
 def generate_conf(name, email):
     """
     """
@@ -112,8 +117,10 @@ def symlink(src, tgt):
                     - `path`:
                     - `excinfo`:
                     """
-                    if func == os.path.islink:
+                    if func == os.path.islink or func ==  os.rmdir:
                         os.remove(path)
+                    else:
+                        logger.debug(str(func))
 
                 shutil.rmtree(tgt, onerror = rmtree_onerror )
                 os.symlink(src, tgt)
