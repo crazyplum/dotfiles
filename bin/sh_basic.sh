@@ -5,6 +5,7 @@ alias ol='ls -l'
 alias al='ls -al'
 alias c=pushd
 alias d=popd
+alias sudo='nocorrect sudo'
 
 export LESS="-FXRS"
 export LC_ALL=en_US.UTF-8
