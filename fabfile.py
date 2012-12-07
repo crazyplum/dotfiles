@@ -154,10 +154,10 @@ def deploy(name = '', email = ''):
     generate_conf(name, email)
 
     local("sed 's:^export DOTFILES_ROOT=.*$:export DOTFILES_ROOT={root}:'  <  {shrc} > {shrc}.new".format(
-        shrc = "dotfiles/.zshrc", root = path.abspath(path.dirname(__file__))))
+        shrc = "dotfiles/.zshrc", root = '$HOME/' + path.relpath(path.abspath(path.dirname(__file__)), os.getenv('HOME'))))
     local('mv {shrc}.new {shrc}'.format(shrc = "dotfiles/.zshrc"))
     local("sed 's:^export DOTFILES_ROOT=.*$:export DOTFILES_ROOT={root}:'  <  {shrc} > {shrc}.new".format(
-        shrc = "dotfiles/.bashrc", root = path.abspath(path.dirname(__file__))))
+        shrc = "dotfiles/.bashrc", root = '$HOME/' + path.relpath(path.abspath(path.dirname(__file__)), os.getenv('HOME'))))
     local('mv {shrc}.new {shrc}'.format(shrc = "dotfiles/.bashrc"))
 
     slink_srcs = map(functools.partial(os.path.join, 'dotfiles'), os.listdir('dotfiles'))
