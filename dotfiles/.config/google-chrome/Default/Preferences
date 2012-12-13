@@ -1,0 +1,191 @@
+{
+   "backup": {
+      "_signature": "AbW22L1qynCFrHkGsntzYwWkxyWct4TMeFD1pNgIMBU=",
+      "_version": 4,
+      "extensions": {
+         "ids": [ "ahfgeienlihckogmohjhadlkjgocpleb", "blpcfgokakmgnkcojhhkbfbldkacnbeo", "coobgpohoikkiipiblmjeljniedjpjpf", "pjkljhegncpnkpknbcohdijeoejaedia" ]
+      },
+      "homepage": "",
+      "homepage_is_newtabpage": true
+   },
+   "browser": {
+      "last_known_google_url": "http://www.google.com.tw/",
+      "last_prompted_google_url": "http://www.google.com.tw/",
+      "window_placement": {
+         "bottom": 778,
+         "left": 227,
+         "maximized": false,
+         "right": 1277,
+         "top": 22,
+         "work_area_bottom": 778,
+         "work_area_left": 0,
+         "work_area_right": 1280,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 21843,
+   "default_apps_install_state": 1,
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://www.google.com/", [ "http://www.google.com/", 5.246261999999999 ] ] ],
+      "startup_list": [ 1, "http://www.google.com/", "http://www.postini.com/" ]
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "12994863866888610"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "app_launcher_ordinal": "n",
+            "page_ordinal": "n"
+         },
+         "blpcfgokakmgnkcojhhkbfbldkacnbeo": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [ "appNotifications" ]
+            },
+            "app_launcher_ordinal": "t",
+            "events": [ "runtime.onInstalled" ],
+            "from_bookmark": true,
+            "from_webstore": true,
+            "install_time": "12994844816698845",
+            "location": 2,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "container": "tab",
+                     "web_url": "http://www.youtube.com/"
+                  },
+                  "web_content": {
+                     "enabled": true,
+                     "origin": "http://www.youtube.com"
+                  }
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "The world's most popular online video community.",
+               "icons": {
+                  "128": "128.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC/HotmFlyuz5FaHaIbVBhhL4BwbcUtsfWwzgUMpZt5ZsLB2nW/Y5xwNkkPANYGdVsJkT2GPpRRIKBO5QiJ7jPMa3EZtcZHpkygBlQLSjMhdrAKevpKgIl6YTkwzNvExY6rzVDzeE9zqnIs33eppY4S5QcoALMxuSWlMKqgFQjHQIDAQAB",
+               "name": "YouTube",
+               "permissions": [ "appNotifications" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "4.2.5"
+            },
+            "page_ordinal": "n",
+            "path": "blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.5_0",
+            "state": 1
+         },
+         "coobgpohoikkiipiblmjeljniedjpjpf": {
+            "ack_external": true,
+            "app_launcher_ordinal": "w",
+            "events": [ "runtime.onInstalled" ],
+            "from_bookmark": true,
+            "from_webstore": true,
+            "install_time": "12994844816949984",
+            "location": 2,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "http://www.google.com/webhp?source=search_app"
+                  },
+                  "urls": [ "*://www.google.com/search", "*://www.google.com/webhp", "*://www.google.com/imgres" ]
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "The fastest way to search the web.",
+               "icons": {
+                  "128": "128.png",
+                  "16": "16.png",
+                  "32": "32.png",
+                  "48": "48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIiso3Loy5VJHL40shGhUl6it5ZG55XB9q/2EX6aa88jAxwPutbCgy5d9bm1YmBzLfSgpX4xcpgTU08ydWbd7b50fbkLsqWl1mRhxoqnN01kuNfv9Hbz9dWWYd+O4ZfD3L2XZs0wQqo0y6k64n+qeLkUMd1MIhf6MR8Xz1SOA8pwIDAQAB",
+               "name": "Google Search",
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "0.0.0.19"
+            },
+            "page_ordinal": "n",
+            "path": "coobgpohoikkiipiblmjeljniedjpjpf/0.0.0.19_0",
+            "state": 1
+         },
+         "pjkljhegncpnkpknbcohdijeoejaedia": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [ "notifications" ]
+            },
+            "app_launcher_ordinal": "x",
+            "events": [ "runtime.onInstalled" ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "install_time": "12994844817189688",
+            "location": 2,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "container": "tab",
+                     "web_url": "https://mail.google.com/mail/ca"
+                  },
+                  "urls": [ "*://mail.google.com/mail/ca" ]
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Fast, searchable email with less spam.",
+               "icons": {
+                  "128": "128.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCuGglK43iAz3J9BEYK/Mz6ZhloIMMDqQSAaf3vJt4eHbTbSDsu4WdQ9dQDRcKlg8nwQdePBt0C3PSUBtiSNSS37Z3qEGfS7LCju3h6pI1Yr9MQtxw+jUa7kXXIS09VV73pEFUT/F7c6Qe8L5ZxgAcBvXBh1Fie63qb02I9XQ/CQIDAQAB",
+               "name": "Gmail",
+               "options_page": "https://mail.google.com/mail/ca/#settings",
+               "permissions": [ "notifications" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "7"
+            },
+            "page_ordinal": "n",
+            "path": "pjkljhegncpnkpknbcohdijeoejaedia/7_0",
+            "state": 1
+         }
+      }
+   },
+   "homepage": "",
+   "homepage_is_newtabpage": true,
+   "net": {
+      "http_server_properties": {
+         "servers": {
+            "www.google.com:443": {
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            }
+         },
+         "version": 1
+      }
+   },
+   "ntp": {
+      "promo_resource_cache_update": "1350371214.406542"
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "enabled_nacl": true
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "clear_on_exit_migrated": true,
+         "pref_version": 1
+      },
+      "created_by_version": "22.0.1229.94",
+      "exited_cleanly": true,
+      "name": "First user"
+   },
+   "session": {
+      "restore_on_startup_migrated": true
+   }
+}
