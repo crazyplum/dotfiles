@@ -6,7 +6,6 @@ from os import path
 import errno
 import shutil
 import functools
-import fileinput
 
 import logging
 logging.basicConfig(level=logging.DEBUG)
