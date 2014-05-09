@@ -1,4 +1,4 @@
-export DOTFILES_ROOT=$HOME/joe-dotfiles
+export DOTFILES_ROOT=$HOME/maxis-dotfiles
 source "$DOTFILES_ROOT/dotfiles-conf.sh"
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
