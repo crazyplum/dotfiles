@@ -7,8 +7,7 @@
 	sb = show-branch
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	ci = commit
-  	st = status
-  	br = branch
+	br = branch
   	hist = log --pretty=format:'%Cred%h%Creset %ad | %s%d [%an]' --graph --date=short
   	type = cat-file -t
   	dump = cat-file -p
@@ -19,4 +18,15 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = ec
+	editor = vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	email = maxis1718@gmail.com
+	name = Maxis-Wolverine
+[push]
+	default = simple
