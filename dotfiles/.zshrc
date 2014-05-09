@@ -1,4 +1,4 @@
-export DOTFILES_ROOT=$HOME/joe-dotfiles
+export DOTFILES_ROOT=$HOME/maxis-dotfiles
 source "$DOTFILES_ROOT/dotfiles-conf.sh"
 
 # Path to your oh-my-zsh configuration.
@@ -9,7 +9,8 @@ ZSH=$DOTFILES_ROOT/submodule/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
+ZSH_THEME="powerline"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -37,16 +38,19 @@ POWERLINE_RIGHT_A="%M"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git debian django virtualenvwrapper pip python urltools autojump)
+#plugins=(git debian django virtualenvwrapper pip python urltools autojump)
+plugins=(git pip python virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 source $DOTFILES_ROOT/bin/sh_basic.sh
 
-export EDITOR="ec"
+# Path to self-defined python modules
+PYMODULE="/Users/Maxis/projects/pymodules"
+
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
-export PYTHONPATH='/usr/local/lib/python2.7/site-packages'
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYMODULE"
 export PROJECT_HOME="$HOME/projects"
 
 if [[ "$TERM" == "dumb" ]]
