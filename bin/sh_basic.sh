@@ -1,11 +1,15 @@
 alias ls='ls --color'
 alias o='ls --color'
-alias oa='ls -a'
-alias ol='ls -l'
-alias al='ls -al'
-alias c=pushd
-alias d=popd
-alias sudo='nocorrect sudo'
+#alias oa='ls -a'
+#alias ol='ls -l'
+#alias al='ls -al'
+#alias c=pushd
+#alias d=popd
+#alias sudo='nocorrect sudo'
+
+alias l="ls -al --color"
+alias h="ls -ahl --color"
+alias p="PROJECT_HOME"
 
 export LESS="-FXRS"
 export LC_ALL=en_US.UTF-8
