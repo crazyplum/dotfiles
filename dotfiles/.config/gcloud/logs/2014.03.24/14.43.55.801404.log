@@ -1,0 +1,107 @@
+2014-03-24 14:43:58,195 DEBUG    root            Metrics are disabled.
+2014-03-24 14:44:05,018 DEBUG    root            Running gcloud.components.update with _Args({'allow_no_backup': True,
+ 'api_host': None,
+ 'architecture_override': None,
+ 'component_ids': [u'pkg-core', u'pkg-python'],
+ 'h': None,
+ 'operating_system_override': None,
+ 'project': None,
+ 'quiet': True,
+ 'sdk_root_override': None,
+ 'snapshot_url_override': None,
+ 'user_output_enabled': True,
+ 'verbosity': None}).
+2014-03-24 14:44:05,192 INFO     ___FILE_ONLY___ 
+
+2014-03-24 14:44:05,192 INFO     ___FILE_ONLY___ The following components will be installed:
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     -------------------------------------------------------------------------------
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | App Engine Launcher Application for Mac              |      1.9.0 |  7.3 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | App Engine SDK for Python and PHP                    |      1.9.0 | 35.2 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Big Query Command Line Tool                          |     2.0.18 |  < 1 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Big Query Command Line Tool (Platform Specific)      |     2.0.18 |  < 1 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Cloud SDK Core Command Line Tools                    |          1 |         |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Cloud SDK Core Libraries (Platform Specific)         | 2014.03.05 |  < 1 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Cloud SDK for Python and PHP Developers              |          1 |         |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Cloud SQL Admin Command Line Interface               | 2014.03.18 |  < 1 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Cloud Storage Command Line Tool                      |       3.42 |  1.8 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Cloud Storage Command Line Tool (Platform Specific)  |       3.42 |  < 1 MB |
+
+2014-03-24 14:44:05,193 INFO     ___FILE_ONLY___     | Compute Engine Command Line Tool                     |     1.14.2 |  < 1 MB |
+
+2014-03-24 14:44:05,194 INFO     ___FILE_ONLY___     | Compute Engine Command Line Tool (Platform Specific) |     1.13.0 |  < 1 MB |
+
+2014-03-24 14:44:05,194 INFO     ___FILE_ONLY___     -------------------------------------------------------------------------------
+
+2014-03-24 14:44:05,194 INFO     ___FILE_ONLY___ 
+
+2014-03-24 14:44:05,194 INFO     ___FILE_ONLY___ Creating update staging area...
+
+
+2014-03-24 14:44:05,291 INFO     ___FILE_ONLY___ 
+
+2014-03-24 14:44:05,291 INFO     ___FILE_ONLY___ Installing: App Engine Launcher Application for Mac ... 
+2014-03-24 14:44:05,941 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:05,941 INFO     ___FILE_ONLY___ Installing: App Engine SDK for Python and PHP ... 
+2014-03-24 14:44:15,949 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:15,949 INFO     ___FILE_ONLY___ Installing: Big Query Command Line Tool ... 
+2014-03-24 14:44:16,003 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,003 INFO     ___FILE_ONLY___ Installing: Big Query Command Line Tool (Platform Specific) ... 
+2014-03-24 14:44:16,038 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,039 INFO     ___FILE_ONLY___ Installing: Cloud SDK Core Command Line Tools ... 
+2014-03-24 14:44:16,042 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,042 INFO     ___FILE_ONLY___ Installing: Cloud SDK Core Libraries (Platform Specific) ... 
+2014-03-24 14:44:16,078 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,078 INFO     ___FILE_ONLY___ Installing: Cloud SDK for Python and PHP Developers ... 
+2014-03-24 14:44:16,082 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,082 INFO     ___FILE_ONLY___ Installing: Cloud SQL Admin Command Line Interface ... 
+2014-03-24 14:44:16,130 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,130 INFO     ___FILE_ONLY___ Installing: Cloud Storage Command Line Tool ... 
+2014-03-24 14:44:16,531 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,531 INFO     ___FILE_ONLY___ Installing: Cloud Storage Command Line Tool (Platform Specific) ... 
+2014-03-24 14:44:16,603 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,603 INFO     ___FILE_ONLY___ Installing: Compute Engine Command Line Tool ... 
+2014-03-24 14:44:16,724 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,724 INFO     ___FILE_ONLY___ Installing: Compute Engine Command Line Tool (Platform Specific) ... 
+2014-03-24 14:44:16,758 INFO     ___FILE_ONLY___ Done
+
+2014-03-24 14:44:16,758 INFO     ___FILE_ONLY___ 
+
+2014-03-24 14:44:16,758 INFO     ___FILE_ONLY___ Creating backup and activating new installation...
+
+2014-03-24 14:44:16,758 DEBUG    root            Attempting to move directory [/Users/Maxis/google-cloud-sdk] to [/Users/Maxis/google-cloud-sdk.staging/.install/.backup]
+2014-03-24 14:44:16,758 DEBUG    root            Attempting to move directory [/Users/Maxis/google-cloud-sdk.staging] to [/Users/Maxis/google-cloud-sdk]
+2014-03-24 14:44:16,779 INFO     ___FILE_ONLY___ 
+Done!
+
+
+2014-03-24 14:44:16,796 WARNING  root            There are older versions of Google Cloud Platform tools on your system PATH.
+Please remove the following to avoid accidentally invoking these old tools:
+
+/Applications/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine/endpointscfg.py
+/Applications/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine/google_sql.py
+/Applications/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine/dev_appserver.py
+/Applications/GoogleAppEngineLauncher.app/Contents/Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine/appcfg.py
+
+

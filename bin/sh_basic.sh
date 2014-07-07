@@ -1,5 +1,7 @@
 alias ls='ls --color'
 alias o='ls --color'
+alias M='mongo doraemon.iis.sinica.edu.tw/LJ40K'
+alias files='ls -1 . | wc -l'
 #alias oa='ls -a'
 #alias ol='ls -l'
 #alias al='ls -al'

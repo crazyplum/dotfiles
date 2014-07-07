@@ -17,7 +17,7 @@
 	path = ~/.githubconfig
 
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/Maxis/.gitignore_global
 	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -27,6 +27,6 @@
 	trustExitCode = true
 [user]
 	email = maxis1718@gmail.com
-	name = Maxis-Wolverine
+	name = Maxis Kao
 [push]
 	default = simple
