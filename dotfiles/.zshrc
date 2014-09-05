@@ -15,6 +15,10 @@ ZSH_THEME="powerline"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshrc="vim ~/.zshrc"
+alias reloadzsh="source ~/.zshrc"
+alias t="cd /tools"
+alias py="ipython"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
