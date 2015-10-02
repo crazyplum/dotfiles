@@ -2,15 +2,15 @@ export DOTFILES_ROOT=$HOME/dotfiles
 source "$DOTFILES_ROOT/dotfiles-conf.sh"
 
 # Path to your oh-my-zsh configuration.
-ZSH=$DOTFILES_ROOT/submodule/oh-my-zsh
+ZSH=~/.oh-my-zsh
 
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="agnoster"
-ZSH_THEME="powerline"
+ZSH_THEME="agnoster"
+#ZSH_THEME="powerline"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -66,6 +66,8 @@ then
   unfunction preexec
   PS1='$ '
 fi
+
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`
 
