@@ -15,13 +15,14 @@ ZSH_THEME="agnoster"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# alias zshrc="vim ~/.zshrc"
-# alias reloadzsh="source ~/.zshrc"
+alias zshrc="vim ~/.zshrc"
+alias reloadzsh="source ~/.zshrc"
 # alias t="cd /tools"
-# alias py="ipython"
+alias py="ipython"
+alias py3="ipython3"
 
 # Set to this to use case-sensitive completion
-CASE_SENSITIVE="true"
+# CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
@@ -54,6 +55,7 @@ source $DOTFILES_ROOT/bin/sh_basic.sh
 # PYMODULE="/Users/Maxis/projects/pymodules"
 
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export SOA="$HOME/Developer/SOA/"
 # export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYMODULE"
 # export PROJECT_HOME="$HOME/projects"
 
