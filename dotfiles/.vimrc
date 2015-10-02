@@ -11,10 +11,14 @@ Plugin 'tomasr/molokai'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" setting for solarized theme
+" setting for monokai theme
 set nu
 syntax enable
 colorscheme molokai
+hi Normal ctermbg=none
+hi NonText ctermbg=none
+"hi LineNr ctermbg=0
+
 
 " other setting
 
