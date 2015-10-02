@@ -1,4 +1,4 @@
-export DOTFILES_ROOT=$HOME/maxis-dotfiles
+export DOTFILES_ROOT=$HOME/dotfiles
 source "$DOTFILES_ROOT/dotfiles-conf.sh"
 
 # Path to your oh-my-zsh configuration.
