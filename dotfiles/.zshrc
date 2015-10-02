@@ -15,10 +15,10 @@ ZSH_THEME="powerline"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshrc="vim ~/.zshrc"
-alias reloadzsh="source ~/.zshrc"
-alias t="cd /tools"
-alias py="ipython"
+# alias zshrc="vim ~/.zshrc"
+# alias reloadzsh="source ~/.zshrc"
+# alias t="cd /tools"
+# alias py="ipython"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -43,19 +43,19 @@ POWERLINE_RIGHT_A="%M"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 #plugins=(git debian django virtualenvwrapper pip python urltools autojump)
-plugins=(git pip python virtualenvwrapper)
+# plugins=(git pip python virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-source $DOTFILES_ROOT/bin/sh_basic.sh
+# source $DOTFILES_ROOT/bin/sh_basic.sh
 
 # Path to self-defined python modules
-PYMODULE="/Users/Maxis/projects/pymodules"
+# PYMODULE="/Users/Maxis/projects/pymodules"
 
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
-export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYMODULE"
-export PROJECT_HOME="$HOME/projects"
+# export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYMODULE"
+# export PROJECT_HOME="$HOME/projects"
 
 if [[ "$TERM" == "dumb" ]]
 then
@@ -69,5 +69,5 @@ fi
 
 eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting

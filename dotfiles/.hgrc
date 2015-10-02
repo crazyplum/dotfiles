@@ -1,8 +1,0 @@
-[ui]
-username = $FULLNAME <$EMAIL>
-verbose = True
-
-[extensions]
-hgext.convert=
-hgext.graphlog=
-hgext.color=
