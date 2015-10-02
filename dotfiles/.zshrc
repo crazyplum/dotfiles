@@ -72,4 +72,5 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`
 
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-# PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+source /Users/crazyplum/.rvm/scripts/rvm
+PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
