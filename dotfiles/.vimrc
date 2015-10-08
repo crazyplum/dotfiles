@@ -40,7 +40,8 @@ set smarttab
 " always uses spaces instead of tab characters
 set expandtab
 
-
+" setting for ruby script
+autocmd Filetype ruby setlocal sw=2 ts=2 sts=2
 
 
 
