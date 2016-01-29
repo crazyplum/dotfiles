@@ -57,6 +57,8 @@ source $DOTFILES_ROOT/bin/sh_basic.sh
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export SOA="$HOME/Developer/SOA/"
 export SCAD="$HOME/Developer/SCAD/"
+export TNL="$HOME/Developer/TNL"
+
 # export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYMODULE"
 # export PROJECT_HOME="$HOME/projects"
 
@@ -77,3 +79,4 @@ eval `dircolors $DOTFILES_ROOT/submodule/dircolors-solarized/dircolors.256dark`
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 source $HOME/.rvm/scripts/rvm
 export PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
+export PATH=/usr/X11/bin:$PATH  # Add xquartz path

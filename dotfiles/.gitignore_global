@@ -27,6 +27,9 @@
 *.sql
 *.sqlite
 
+# secret file
+*.pem
+
 # OS generated files #
 ######################
 .DS_Store

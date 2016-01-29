@@ -17,7 +17,7 @@
 	path = ~/.githubconfig
 
 [core]
-	excludesfile = /Users/Maxis/.gitignore_global
+	excludesfile = /Users/crazyplum/.gitignore_global
 	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
